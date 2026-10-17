@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function Education() {
-    return ( 
-        <h1>Education</h1>
-     );
+  return <h1>Education</h1>;
 }
 
 export default Education;
