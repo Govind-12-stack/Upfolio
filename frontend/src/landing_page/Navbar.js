@@ -3,37 +3,76 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="top-navbar">
-      <a href="/" className="brand">
-        <img src="/media/images/logo.svg" alt="Zerodha" />
-      </a>
-
-      <div className="nav-right">
-        <ul className="nav-links">
-          <li>
-            <a href="/signup">Signup</a>
-          </li>
-          <li>
-            <a href="/about" className="active">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="/products">Products</a>
-          </li>
-          <li>
-            <a href="/pricing">Pricing</a>
-          </li>
-          <li>
-            <a href="/support">Support</a>
-          </li>
-        </ul>
-
-        <button className="menu-button" aria-label="Open menu">
-          <span></span>
-          <span></span>
-          <span></span>
+   
+    <nav class="navbar md:navbar-expand bg-light border-bottom bg-1">
+      <div class="container p-2">
+        <a class="navbar-brand" href="#">
+          <img
+            src="media/images/logo.svg"
+            style={{ width: "25%" }}
+            alt="Logo"
+          />
+        </a>
+        <button
+          class="btn-icon navbar-toggler"
+          type="button"
+          data-bs-toggle="drawer"
+          data-bs-target="#navbarDrawer"
+          aria-controls="navbarDrawer"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
         </button>
+        <dialog
+          class="drawer drawer-end"
+          tabindex="-1"
+          id="navbarDrawer"
+          aria-labelledby="navbarDrawerLabel"
+        >
+          <div class="drawer-header">
+            <h5 class="drawer-title" id="navbarDrawerLabel">
+              Menu
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="drawer"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="drawer-body mb-2 md:mb-0">
+            <form class="hstack gap-2" role="search">
+              <ul class="nav navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    Signup
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                    About
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                    Product
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                    Pricing
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                    Support
+                  </a>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </dialog>
       </div>
     </nav>
   );
