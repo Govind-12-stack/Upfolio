@@ -45,27 +45,27 @@ function Navbar() {
             <form class="hstack gap-2" role="search">
               <ul class="nav navbar-nav me-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
+                  <a class="nav-link active fw-bold" aria-current="page" href="#">
                     Signup
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">
+                  <a class="nav-link active fw-bold" href="#">
                     About
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">
+                  <a class="nav-link active fw-bold" href="#">
                     Product
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">
+                  <a class="nav-link active fw-bold" href="#">
                     Pricing
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">
+                  <a class="nav-link active fw-bold" href="#">
                     Support
                   </a>
                 </li>
