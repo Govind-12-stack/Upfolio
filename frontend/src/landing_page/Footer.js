@@ -55,10 +55,10 @@ function Footer() {
         </div>
         <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
           <p>
-            Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
+            Zerodha Broking Ltd.: Member of NSE & BSE - SEBI Registration no.:
             INZ000031633 CDSL: Depository services through Zerodha Securities
-            Pvt. Ltd. – SEBI Registration no.: IN-DP-100-2015 Commodity Trading
-            through Zerodha Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
+            Pvt. Ltd.  SEBI Registration no.: IN-DP-100-2015 Commodity Trading
+            through Zerodha Commodities Pvt. Ltd. MCX: 46025 - SEBI Registration
             no.: INZ000038238 Registered Address: Zerodha Broking Ltd.,
             #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School,
             J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any

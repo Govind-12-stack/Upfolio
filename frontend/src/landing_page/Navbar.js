@@ -1,18 +1,19 @@
 import React from "react";
-import "./Navbar.css";
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
   return (
    
     <nav class="navbar md:navbar-expand bg-light border-bottom bg-1">
       <div class="container p-2">
-        <a class="navbar-brand" href="#">
+        <Link class="navbar-brand" to="/">
           <img
             src="media/images/logo.svg"
             style={{ width: "25%" }}
             alt="Logo"
           />
-        </a>
+        </Link>
         <button
           class="btn-icon navbar-toggler"
           type="button"
@@ -45,29 +46,29 @@ function Navbar() {
             <form class="hstack gap-2" role="search">
               <ul class="nav navbar-nav me-auto">
                 <li class="nav-item">
-                  <a class="nav-link active fw-bold" aria-current="page" href="#">
+                  <Link class="nav-link active fw-bold" aria-current="page" to="/signup">
                     Signup
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active fw-bold" href="#">
+                  <Link class="nav-link active fw-bold" to="/about">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active fw-bold" href="#">
+                  <Link class="nav-link active fw-bold" to="/product">
                     Product
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active fw-bold" href="#">
+                  <Link class="nav-link active fw-bold" to="/pricing">
                     Pricing
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active fw-bold" href="#">
+                  <Link class="nav-link active fw-bold" to="/support">
                     Support
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </form>
